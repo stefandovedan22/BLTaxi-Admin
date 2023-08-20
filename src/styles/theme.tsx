@@ -1,6 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 
 import { ButtonStyles as Button } from "./components/buttonStyles";
+import { InputStyles as Input } from "./components/inputStyles";
 
 export const theme = extendTheme({
   // breakpoints,
@@ -45,23 +46,24 @@ export const theme = extendTheme({
     titleBold: {
       fontFamily: "Poppins",
       color: "dark",
-      fontSize: "55px",
+      fontSize: "3.5rem",
       fontWeight: "500",
     },
     titleLight: {
       fontFamily: "Poppins",
       color: "dark",
-      fontSize: "16px",
+      fontSize: "1rem",
       fontWeight: "400",
     },
     titleSmall: {
       fontFamily: "Poppins",
       color: "dark",
-      fontSize: "13px",
+      fontSize: "0.813rem",
       fontWeight: "400",
     },
   },
   components: {
     Button,
+    Input,
   },
 });

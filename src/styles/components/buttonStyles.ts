@@ -11,5 +11,14 @@ export const ButtonStyles = {
         bg: "#a7c5f9",
       },
     },
+    loginButton: {
+      borderRadius: "0.625rem",
+      bg: "green.400",
+      color: "white",
+      margin: "0.25rem ",
+      _hover: {
+        bg: "green.600",
+      },
+    },
   },
 };
